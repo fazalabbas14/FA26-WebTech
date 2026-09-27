@@ -43,6 +43,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
 }
+
 .profile-pic img {
   width: 100%;
   object-fit: cover;
