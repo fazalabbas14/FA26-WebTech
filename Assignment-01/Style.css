@@ -64,7 +64,7 @@ body {
   font-size: 3.5rem;
   font-weight: bold;
 }
-.about-me h3 {
+.about-me h2 {
   font-size: 1.8rem;
   font-weight: lighter;
   padding-bottom: 20px;
@@ -85,6 +85,10 @@ body {
   gap: 20px;
   font-size: 1.2rem;
   font-weight: lighter;
+}
+.contact a{
+  text-decoration: none;
+  color: white;
 }
 .contact i {
   font-size: 1.5rem;
@@ -154,7 +158,7 @@ body {
   font-size: 4.5rem;
   font-weight: bold;
 }
-.about-head h3 {
+.about-head h2 {
   font-size: 1.8rem;
   font-weight: lighter;
   padding-bottom: 20px;
