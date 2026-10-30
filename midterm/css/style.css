@@ -11,6 +11,8 @@
     --patch-color:#F6F5F0;
     --cart-color:#CB8A3D;
     --card-hover:#db9d52;
+
+    --accent-color: hsl(189, 70%, 45%);
 }
 body{
     font-family: Arial, Helvetica, sans-serif;  
@@ -136,6 +138,61 @@ body{
     padding: 50px 60px;
     text-align: center;
 }
+
+
+/* Category Filter */
+
+.category-filter {
+    border: none;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.category-filter input[type="radio"] {
+    width: 1px;
+    height: 1px;
+}
+
+
+.filter-options label {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.category-filter input:checked + label {
+    background-color: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
+
+
+.product-section:has(#filter-desk:checked)
+.products .product:not([data-category="desk"]) {
+    display: none;
+}
+
+.product-section:has(#filter-mobile:checked)
+.products .product:not([data-category="mobile"]) {
+    display: none;
+}
+
+.product-section:has(#filter-carry:checked)
+.products .product:not([data-category="carry"]) {
+    display: none;
+}
+
+
 
 .products{
     width: 100%;
