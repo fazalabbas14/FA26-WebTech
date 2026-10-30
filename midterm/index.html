@@ -73,6 +73,24 @@
       </div>
     </fieldset>
 
+    <!-- Search and Sort Controls -->
+    <div class="product-tools">
+
+      <div class="search-box">
+        <input type="search" id="product-search" placeholder="Search products..." aria-label="Search products by name">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+      <button type="button" id="sort-price">
+        Sort by price
+      </button>
+
+    </div>
+
+    <!-- No Results Message -->
+    <p id="no-products" class="no-products" role="status" hidden>
+      No products found
+    </p>
 
     <div class="products">
 
@@ -87,7 +105,8 @@
           <p class="price" data-price="3000">Rs. 3000</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
+
       </article>
 
       <article class="product" data-category="desk">
@@ -99,7 +118,8 @@
           <p class="price" data-price="4000">Rs. 4000</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
+
       </article>
 
       <article class="product" data-category="mobile">
@@ -111,7 +131,8 @@
           <p class="price" data-price="3500">Rs. 3500</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
+
       </article>
 
       <article class="product" data-category="mobile">
@@ -123,7 +144,8 @@
           <p class="price" data-price="3400">Rs. 3400</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
+
       </article>
 
       <article class="product" data-category="carry">
@@ -135,7 +157,8 @@
           <p class="price" data-price="2400">Rs. 2400</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
+
       </article>
 
       <article class="product" data-category="mobile">
@@ -147,7 +170,8 @@
           <p class="price" data-price="1200">Rs. 1200</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
+
       </article>
 
       <article class="product" data-category="mobile">
@@ -159,7 +183,8 @@
           <p class="price" data-price="1000">Rs. 1000</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
+
       </article>
 
       <article class="product" data-category="mobile">
@@ -171,7 +196,8 @@
           <p class="price" data-price="900">Rs. 900</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
+
       </article>
 
       <article class="product" data-category="mobile">
@@ -183,7 +209,8 @@
           <p class="price" data-price="900">Rs. 900</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
+
       </article>
 
       <article class="product" data-category="carry">
@@ -195,7 +222,7 @@
           <p class="price" data-price="1300">Rs. 1300</p>
         </div>
 
-        <div class="cart">+</div>
+        <button class="cart">Add To Cart</button>
       </article>
 
     </div>
@@ -257,5 +284,5 @@
   </footer>
 
 </body>
-
+<script src="./js/script.js"></script>
 </html>

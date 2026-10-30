@@ -25,9 +25,21 @@
 
 (To be completed)
 
-## Task 3: JavaScript Cart
+## Task 3: JavaScript Live Search and Sorting
 
-(To be completed)
+Files changed:
+- index.html
+- css/style.css
+- script.js
+
+Implemented live product search using JavaScript DOM
+selection and the input event. Search works together
+with the existing CSS category filtering.
+
+Implemented ascending and descending price sorting
+using sort() and appendChild() on existing product cards.
+Premium labels are dynamically added to products costing
+more than Rs. 2,700.
 
 ## AI Tools Used
 
